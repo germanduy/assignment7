@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Assignment7.QuanlyDSSP">
+   <children>
+      <TextField fx:id="ten" layoutX="60.0" layoutY="104.0" promptText="Tên sản phẩm" />
+      <TextField fx:id="gia" layoutX="60.0" layoutY="156.0" promptText="Giá" />
+      <TextField fx:id="donvi" layoutX="60.0" layoutY="208.0" prefHeight="31.0" prefWidth="186.0" promptText="Đơn vị" />
+      <TextField fx:id="soluong" layoutX="60.0" layoutY="263.0" promptText="Số lượng" />
+      <Text fx:id="result" layoutX="202.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản lý danh sách sản phẩm" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="302.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh sách sản phẩm" wrappingWidth="334.6708984375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="60.0" layoutY="356.0" mnemonicParsing="false" onAction="#themsp" prefHeight="20.0" prefWidth="186.0" text="Thêm sản phẩm" textFill="#221f1f" />
+      <Button layoutX="60.0" layoutY="411.0" mnemonicParsing="false" onAction="#hiendssp" prefHeight="31.0" prefWidth="186.0" text="In danh sách sản phẩm" />
+      <Text fx:id="error" fill="#ff0202" layoutX="60.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ERROR" visible="false">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
